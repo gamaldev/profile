@@ -21,6 +21,14 @@
         .profile-img:hover {
             transform: scale(1.1);
         }
+        .work-img {
+            object-fit: cover;
+            border: 2px solid #1e3c72;
+            transition: transform 0.3s ease-in-out;
+        }
+        .work-img:hover {
+            transform: scale(1.1);
+        }
         .btn-custom {
             transition: all 0.3s ease-in-out;
         }
@@ -41,7 +49,7 @@
     <div class="container text-center mt-5">
         <img src="gamal.png" class="profile-img rounded-circle mb-3" alt="Gamal Mohen Profile">
         <h1>Gamal Mohen</h1>
-        <p class="lead">Mobile & Web Developer</p>
+        <p class="lead">Mobile Developer</p>
         
         <div class="mt-4">
             <a href="mailto:gamalmoh515@gmail.com" class="btn btn-outline-success">Contact Me</a>
@@ -49,9 +57,9 @@
     </div>
     
     <div class="container work-section text-center mt-5 mb-5">
-        <h2>Work</h2>
+        <h2>My Dev Work</h2>
         <div class="mt-4">
-            <img src="alwaseet.png" alt="Alwaseet Altibbi Logo" width="300" class="mb-2">
+            <img src="alwaseet.png" alt="Alwaseet Altibbi Logo"  width="300" class="mb-2 work-img rounded">
             <h4>Alwaseet Altibbi (Flutter)</h4>
             <p class="text-muted">Coming Soon</p>
         </div>
